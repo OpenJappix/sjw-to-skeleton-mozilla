@@ -3,18 +3,18 @@
   <RDF:Description about="urn:mozilla:install-manifest">
 
     <!-- GUID and type -->
-    <em:id>cloud-to-butt-mozilla@github.com</em:id>
+    <em:id>sjw-to-liberal-mozilla@github.com</em:id>
     <em:type>2</em:type>
 
     <!-- Extension details -->
-    <em:name>Cloud To Butt</em:name>
-    <em:description>Replaces the text 'cloud' with 'butt'.</em:description>
-    <em:creator>Dan Bunyard</em:creator>
-    <em:developer>Dan Bunyard</em:developer>
-    <em:homepageURL>https://github.com/danodemano/cloud-to-butt-mozilla</em:homepageURL>
+    <em:name>SJW to Liberal</em:name>
+    <em:description>Replaces the text 'SJW' with 'liberal'.</em:description>
+    <em:creator>Sixthhokage1</em:creator>
+    <em:developer>Sixthhokage1</em:developer>
+    <em:homepageURL>https://github.com/Sixthhokage1/sjw-to-liberal-mozilla</em:homepageURL>
 
     <!-- Current version -->
-    <em:version>1.1</em:version>
+    <em:version>1.0</em:version>
 
     <!-- Firefox meta info -->
     <em:targetApplication>
