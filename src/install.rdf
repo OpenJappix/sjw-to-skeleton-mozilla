@@ -3,15 +3,15 @@
   <RDF:Description about="urn:mozilla:install-manifest">
 
     <!-- GUID and type -->
-    <em:id>sjw-to-liberal-mozilla@github.com</em:id>
+    <em:id>sjw-to-skeleton-mozilla@github.com</em:id>
     <em:type>2</em:type>
 
     <!-- Extension details -->
-    <em:name>SJW to Liberal</em:name>
-    <em:description>Replaces the text 'SJW' with 'liberal'.</em:description>
+    <em:name>SJW to Skeleton</em:name>
+    <em:description>Replaces the text 'SJW' with 'skeleton'.</em:description>
     <em:creator>Sixthhokage1</em:creator>
     <em:developer>Sixthhokage1</em:developer>
-    <em:homepageURL>https://github.com/Sixthhokage1/sjw-to-liberal-mozilla</em:homepageURL>
+    <em:homepageURL>https://github.com/OpenJappix/sjw-to-skeleton-mozilla</em:homepageURL>
 
     <!-- Current version -->
     <em:version>1.0</em:version>

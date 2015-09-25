@@ -2,8 +2,8 @@
 
 <?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
 
-<!DOCTYPE overlay SYSTEM "chrome://sjw-to-liberal/locale/cv-pls.dtd">
+<!DOCTYPE overlay SYSTEM "chrome://sjw-to-skeleton/locale/cv-pls.dtd">
 
 <overlay id="cv-pls-browser-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script type="text/javascript" src="chrome://sjw-to-liberal/content/sjw-to-liberal.js" />
+  <script type="text/javascript" src="chrome://sjw-to-skeleton/content/sjw-to-skeleton.js" />
 </overlay>

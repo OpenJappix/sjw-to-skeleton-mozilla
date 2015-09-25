@@ -1,19 +1,19 @@
 (function() {
 
-function walk(node) 
+function walk(node)
 {
 	// I stole this function from here:
 	// http://is.gd/mwZp7E
-	
+
 	var child, next;
 
-	switch ( node.nodeType )  
+	switch ( node.nodeType )
 	{
 		case 1:  // Element
 		case 9:  // Document
 		case 11: // Document fragment
 			child = node.firstChild;
-			while ( child ) 
+			while ( child )
 			{
 				next = child.nextSibling;
 				walk(child);
@@ -28,17 +28,16 @@ function walk(node)
 			break;
 	}
 }
-    
+
 function handleText(textNode) {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/SJW/g, "liberal");
-	v = v.replace(/\bsjw\b/g, "liberal");
-	v = v.replace(/social justice warrior/g, "liberal");
-	v = v.replace(/Social Justice Warrior/g, "liberal");
-	v = v.replace(/\ban liberal\b/g, "a liberal");
-	v = v.replace(/\bliberal's\b/g, "liberals");
-	
+
+		v = v.replace(/\bsjw(s?)\b/ig, "skeleton$1");
+		v = v.replace(/\bsocjus\b/ig, "skeletonism");
+		v = v.replace(/\b(a)n (skeletons?)\b/ig, "$1 $2");
+		v = v.replace(/\b(s)ocial justice (warriors?)/ig, "$1keleton $2");
+
 	textNode.nodeValue = v;
 }
 
